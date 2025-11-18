@@ -55,7 +55,7 @@ class SecurityLayer {
     }
 }
 
-public class Act {
+public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -102,4 +102,5 @@ public class Act {
         System.out.println("Permission granted: " + pm.getPermissions(user));
     }
 }
+
 
